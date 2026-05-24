@@ -7,8 +7,8 @@ signed main(){
     int secret=rand()%100+1;
     int usernum=0;
     int cnt=1;
-    cout<<"Welcome to Ngot's show!!!"<<endl;
-    cout<<"Ngot has chosen a number from 1 to 100, can you guess the chosen number?"<<endl;
+    cout<<"Welcome to the game!!!"<<endl;
+    cout<<"I have chosen a number from 1 to 100, can you guess the chosen number?"<<endl;
     while(usernum!=secret){
         cout<<"Guess a number:"<<' ';
         cin>>usernum;
